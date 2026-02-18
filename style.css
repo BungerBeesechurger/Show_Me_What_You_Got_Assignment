@@ -10,6 +10,18 @@ body {
 }
 
 
+#images {
+  width: 600px;
+  height: 750px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
 header {
   font-family: 'Old English Text MT', sans-serif;
   text-align: center;
@@ -117,3 +129,4 @@ input {
   padding: 10px;
 
 }
+
