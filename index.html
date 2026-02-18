@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DnD Character</title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8"/>
+  </head>
+
+
+  <body>
+    <header>
+      DnD Character Creation Guide
+    </header>
+
+
+
+
+    <section class="intro">
+      <h1>Introduction</h1>
+      <p>
+        This guide walks you through making your first Dungeons & Dragons character. You don't need to know all the rules for this. Just follow the steps and ask your Dungeon Master or other players when you're confused. By the end, you should have a simple character that's ready to play.
+      </p>
+    </section>
+
+
+
+
+    <h1>Step 1: Talk with your Dungeon Master throughout the process</h1>
+      <p>
+        Learn about what kind of world, themes, and other characters you'll be interacting with in your DnD game. If you have questions or need some feedback, just reach out to your Dungeon Master (and other players).
+      </p>
+
+
+    <h1>Step 2: Come up with a character concept</h1>
+      <p>
+        Based on what you now know about the campaign you'll be playing in, come up with a rough concept of what you'd like to play. That idea could be a sailor, a soldier, or even a drunk. The only general requirements are that they fit the campaign and that they want to be with the rest of the adventuring party AKA other players.
+      </p>
+
+
+    <h1>Step 3: Pick a Class</h1>
+      <p>
+        Choose what your character does in the adventuring party. Pick whatever sounds fun and/or fits your character concept, and know that each class has even more ways to further specialize, called subclasses.
+      </p>
+      <!--Maybe add class icons here that span or scroll left and right-->
+      <ul>
+        <li>ARTIFICER</li>
+        <li>BARBARIAN</li>
+        <li>BARD</li>
+        <li>CLERIC</li>
+        <li>DRUID</li>
+        <li>FIGHTER</li>
+        <li>MONK</li>
+        <li>PALADIN</li>
+        <li>RANGER</li>
+        <li>ROGUE</li>
+        <li>SORCERER</li>
+        <li>WARLOCK</li>
+        <li>WIZARD</li>
+      </ul>
+
+
+    <h1>Step 4: Pick a Race</h1>
+      <p>
+        Choose what kind of creature your character is. Humans are versatile, elves are long-lived, dwarves have high substance tolerances, etc. Each race gives you a few nice stat bonuses and abilities, but most people just pick what fits their character concept the closest.
+      </p>
+
+
+    <h1>Step 5: Roll (or allocate) your stats</h1>
+      <p>
+        Your Dungeon Master will tell you how to generate your six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. You might roll dice, use a specific set of provided numbers, or allocate points to customize your stats. Put your highest scores in whatever stats your class uses the most.
+      </p>
+   
+
+    <!--Small dice roller section-->
+    <div id="container">
+      <h2>Dice Rollin' Time!</h2>
+      <label># of dice:</label>
+      <input type="number" id="numDice" value="1" min="1" max="1000">
+      <button onclick="rollDice()">Roll! Roll! Roll!</button>
+      <div id="diceResult"></div>
+      <div id="diceImages"></div>
+    </div>
+
+
+    <h1>Step 6: Pick a Subclass</h1>
+      <p>
+        Most classes let you specialize at some point, usually at levels 1, 2, or 3. For example, a fighter can specialize and either beecome a Champion who's better at landing critical hits, or a Battle Master who can use a variety of tactical maneuvers during combat. Check when your class gets to specialize, then choose whatever subclass sounds fun and fitting for your character concept. One important thing to note is that although there might not be an exact fit for your character concept, most Dungeon Masters are more than happy to "flavor" official content, which just means to change the aesthetics of something without changing how its mechanics function.
+      </p>
+
+
+    <h1>Step 7: Pick a Background</h1>
+      <p>
+        Your background is what your character did before they became an adventurer. For example, a soldier is trained to be very physical, while a criminal would likely have stealth or deception ingrained into their very bones. Your background gives you proficiency in specific skills and sometimes other features too.
+      </p>
+
+
+    <h1>Step 8: Decide simple relationships and motivations</h1>
+      <p>
+        Figure out who your character knows and what they want. Do they have family? Friends? Enemies? What drives them to adventure? Is it for glory, honor, mutton, or something else? Think about at least one person they care about and one goal they're working towards, and you can write them into a short backstory for them, combined with their background.
+      </p>
+
+
+    <h1>Step 9: Choose items and weapons</h1>
+      <p>
+        Your class and background will give you certain starting equipment like weapons, armor, and tools. If your Dungeon Master gives you starting money instead, you can buy what makes sense for your character. However, make sure you have a weapon that you know how to use and some basic necessities, like a bedroll and rations.
+      </p>
+
+
+    <h1>Step 10: Choose spells (if applicable)</h1>
+      <p>
+        If your class casts spells, you'll need to pick which ones you start with. Choose a mix of combat spells (for obvious reasons) and utility spells for non-combat situations. Your Dungeon Master or more experienced players can help you pick good options for your first game.
+      </p>
+
+
+    <section class="outro">
+      <h1>Transferring to Your Character Sheet</h1>
+      <p>
+        Once you've made all of your choices, copy them down on a digital or physical character sheet. Your Dungeon Master, DnD group, and the internet can help you with this part, especially what the more technical parts mean and how to calculate them. Your character sheet will house all of information that we just went through, including stats, equipment, and spells, so you'll be able to find the majority of what you need by just glancing down at it.
+      </p>
+    </section>
+
+    <h1>Here's the first page of a blank sheet and an example of a complete first page:</h1>
+    <div id="images">
+      <img src="Blank.jpg">
+      <img src="Simon.jpg">
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
